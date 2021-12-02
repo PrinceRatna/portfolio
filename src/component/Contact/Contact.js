@@ -39,7 +39,7 @@ const Contact = () => {
           <TextField style={{width:'45%', marginBottom:'10px'}} type="text" id="standard-basic" label="Name" name="Name"/><br/>
           <TextField style={{width:'45%', marginBottom:'10px'}} type="email" id="standard-basic" label="E-mail" name="E-mail" /><br/>
           {/* <TextField style={{width:'45%', marginBottom:'10px'}} type="number" id="standard-basic" label=" Number" /> */}
-          <TextareaAutosize style={{width:'45%', marginTop:'10px',border:'1px solid gray'}} aria-label="minimum height" minRows={3}  name="message" placeholder="Comment "/>
+          <TextareaAutosize style={{width:'45%', marginTop:'10px',border:'1px solid gray'}} aria-label="minimum height" minRows={3}  name="message" placeholder="Do you want to hire me?"/>
 <br/>
           <Button
           type="submit" value="Send"

@@ -4,8 +4,22 @@ import profileImage from '../../images/my-bg.png'
 import { faFacebookF,faLinkedinIn,faGit,faCodepen,faJsSquare,faReact,faNode, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { Button, makeStyles } from '@material-ui/core';
+import TrendingFlatIcon from '@material-ui/icons/TrendingFlat';
+import SaveIcon from '@material-ui/icons/Save';
+
+const useStyles = makeStyles((theme) => ({
+  button: {
+    margin: theme.spacing(1),
+  },
+}));
+
+
+
 
 const Home = () => {
+    const classes = useStyles();
+
     // https://rainbowit.net/html/inbio/index-white-version.html
     // https://rainbowit.net/html/inbio/index-model-white-version.html
     return (
@@ -47,7 +61,16 @@ const Home = () => {
             </div>
            <div className="my-auto" style={{width:'100%'}}>
             <img src={profileImage} alt=''/>
-           
+            <Button
+        variant="contained"
+        color="primary"
+        size="medium"
+        className={classes.button}
+        endIcon={<TrendingFlatIcon />}
+      >
+          <a href='#index[3]'>
+        HIRE ME </a>
+      </Button>
             </div>
             </container>
           

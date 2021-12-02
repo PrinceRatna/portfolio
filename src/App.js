@@ -6,6 +6,7 @@ import PersistentDrawerRight from './component/Navbar/PersistentDrawerRight';
 import MyProjects from './component/MyProjects/MyProjects';
 import Contact from './component/Contact/Contact';
 import About from './component/About/About';
+import Address from './component/Address/Address';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       <Home></Home>
       <Features></Features>
       <MyProjects></MyProjects>
-      
      <About></About>
+     <Address></Address>
      <Contact></Contact>
      
 
